@@ -11,7 +11,34 @@
 		BA6AD80F270DD821001E5E8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD80E270DD821001E5E8F /* ContentView.swift */; };
 		BA6AD811270DD823001E5E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6AD810270DD823001E5E8F /* Assets.xcassets */; };
 		BA6AD814270DD823001E5E8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6AD813270DD823001E5E8F /* Preview Assets.xcassets */; };
+		BA6AD81C270DD83B001E5E8F /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD81B270DD83B001E5E8F /* NewsRow.swift */; };
+		BA6AD81E270DDABC001E5E8F /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD81D270DDABC001E5E8F /* NewsList.swift */; };
+		BA6AD826270DE2D0001E5E8F /* TitechAppCourseNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD825270DE2D0001E5E8F /* TitechAppCourseNewsTests.swift */; };
+		BA6AD82F270DE355001E5E8F /* PlusOneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD82E270DE355001E5E8F /* PlusOneService.swift */; };
+		BA6AD830270DE355001E5E8F /* PlusOneService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD82E270DE355001E5E8F /* PlusOneService.swift */; };
+		BA6AD836270DE3E4001E5E8F /* PlusOneServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD834270DE3E4001E5E8F /* PlusOneServiceTests.swift */; };
+		BA6AD838270DE63A001E5E8F /* OCWRSSFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD837270DE63A001E5E8F /* OCWRSSFetchService.swift */; };
+		BA6AD839270DE63A001E5E8F /* OCWRSSFetchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD837270DE63A001E5E8F /* OCWRSSFetchService.swift */; };
+		BA6AD83B270DE6DD001E5E8F /* NewsViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD83A270DE6DD001E5E8F /* NewsViewAction.swift */; };
+		BA6AD83C270DE6DD001E5E8F /* NewsViewAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD83A270DE6DD001E5E8F /* NewsViewAction.swift */; };
+		BA6AD83E270DE6ED001E5E8F /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD83D270DE6ED001E5E8F /* NewsViewModel.swift */; };
+		BA6AD83F270DE6ED001E5E8F /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD83D270DE6ED001E5E8F /* NewsViewModel.swift */; };
+		BA6AD841270DE75D001E5E8F /* NewsUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD840270DE75D001E5E8F /* NewsUIState.swift */; };
+		BA6AD842270DE75D001E5E8F /* NewsUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD840270DE75D001E5E8F /* NewsUIState.swift */; };
+		BA6AD845270DEF1A001E5E8F /* Kanna in Frameworks */ = {isa = PBXBuildFile; productRef = BA6AD844270DEF1A001E5E8F /* Kanna */; };
+		BA6AD848270DFF4D001E5E8F /* Regexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD847270DFF4D001E5E8F /* Regexp.swift */; };
+		BA6AD849270DFF4D001E5E8F /* Regexp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6AD847270DFF4D001E5E8F /* Regexp.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6AD827270DE2D0001E5E8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6AD801270DD821001E5E8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6AD808270DD821001E5E8F;
+			remoteInfo = TitechAppCourseNews;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BA6AD809270DD821001E5E8F /* TitechAppCourseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitechAppCourseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +46,29 @@
 		BA6AD80E270DD821001E5E8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BA6AD810270DD823001E5E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6AD813270DD823001E5E8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA6AD81B270DD83B001E5E8F /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
+		BA6AD81D270DDABC001E5E8F /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		BA6AD823270DE2CF001E5E8F /* TitechAppCourseNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TitechAppCourseNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6AD825270DE2D0001E5E8F /* TitechAppCourseNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitechAppCourseNewsTests.swift; sourceTree = "<group>"; };
+		BA6AD82E270DE355001E5E8F /* PlusOneService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneService.swift; sourceTree = "<group>"; };
+		BA6AD834270DE3E4001E5E8F /* PlusOneServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneServiceTests.swift; sourceTree = "<group>"; };
+		BA6AD837270DE63A001E5E8F /* OCWRSSFetchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCWRSSFetchService.swift; sourceTree = "<group>"; };
+		BA6AD83A270DE6DD001E5E8F /* NewsViewAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewAction.swift; sourceTree = "<group>"; };
+		BA6AD83D270DE6ED001E5E8F /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		BA6AD840270DE75D001E5E8F /* NewsUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsUIState.swift; sourceTree = "<group>"; };
+		BA6AD847270DFF4D001E5E8F /* Regexp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regexp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BA6AD806270DD821001E5E8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6AD845270DEF1A001E5E8F /* Kanna in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6AD820270DE2CF001E5E8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6AD80B270DD821001E5E8F /* TitechAppCourseNews */,
+				BA6AD824270DE2D0001E5E8F /* TitechAppCourseNewsTests */,
 				BA6AD80A270DD821001E5E8F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6AD809270DD821001E5E8F /* TitechAppCourseNews.app */,
+				BA6AD823270DE2CF001E5E8F /* TitechAppCourseNewsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +99,9 @@
 		BA6AD80B270DD821001E5E8F /* TitechAppCourseNews */ = {
 			isa = PBXGroup;
 			children = (
+				BA6AD846270DFF46001E5E8F /* Utility */,
+				BA6AD82C270DE325001E5E8F /* Model */,
+				BA6AD81A270DD833001E5E8F /* Views */,
 				BA6AD80C270DD821001E5E8F /* TitechAppCourseNewsApp.swift */,
 				BA6AD80E270DD821001E5E8F /* ContentView.swift */,
 				BA6AD810270DD823001E5E8F /* Assets.xcassets */,
@@ -65,6 +116,52 @@
 				BA6AD813270DD823001E5E8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA6AD81A270DD833001E5E8F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA6AD81B270DD83B001E5E8F /* NewsRow.swift */,
+				BA6AD81D270DDABC001E5E8F /* NewsList.swift */,
+				BA6AD83A270DE6DD001E5E8F /* NewsViewAction.swift */,
+				BA6AD83D270DE6ED001E5E8F /* NewsViewModel.swift */,
+				BA6AD840270DE75D001E5E8F /* NewsUIState.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA6AD824270DE2D0001E5E8F /* TitechAppCourseNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6AD825270DE2D0001E5E8F /* TitechAppCourseNewsTests.swift */,
+				BA6AD834270DE3E4001E5E8F /* PlusOneServiceTests.swift */,
+			);
+			path = TitechAppCourseNewsTests;
+			sourceTree = "<group>";
+		};
+		BA6AD82C270DE325001E5E8F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA6AD82D270DE330001E5E8F /* Service */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA6AD82D270DE330001E5E8F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BA6AD82E270DE355001E5E8F /* PlusOneService.swift */,
+				BA6AD837270DE63A001E5E8F /* OCWRSSFetchService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BA6AD846270DFF46001E5E8F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BA6AD847270DFF4D001E5E8F /* Regexp.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +180,30 @@
 			dependencies = (
 			);
 			name = TitechAppCourseNews;
+			packageProductDependencies = (
+				BA6AD844270DEF1A001E5E8F /* Kanna */,
+			);
 			productName = TitechAppCourseNews;
 			productReference = BA6AD809270DD821001E5E8F /* TitechAppCourseNews.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BA6AD822270DE2CF001E5E8F /* TitechAppCourseNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6AD829270DE2D0001E5E8F /* Build configuration list for PBXNativeTarget "TitechAppCourseNewsTests" */;
+			buildPhases = (
+				BA6AD81F270DE2CF001E5E8F /* Sources */,
+				BA6AD820270DE2CF001E5E8F /* Frameworks */,
+				BA6AD821270DE2CF001E5E8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6AD828270DE2D0001E5E8F /* PBXTargetDependency */,
+			);
+			name = TitechAppCourseNewsTests;
+			productName = TitechAppCourseNewsTests;
+			productReference = BA6AD823270DE2CF001E5E8F /* TitechAppCourseNewsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +218,10 @@
 					BA6AD808270DD821001E5E8F = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					BA6AD822270DE2CF001E5E8F = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA6AD808270DD821001E5E8F;
+					};
 				};
 			};
 			buildConfigurationList = BA6AD804270DD821001E5E8F /* Build configuration list for PBXProject "TitechAppCourseNews" */;
@@ -111,11 +233,15 @@
 				Base,
 			);
 			mainGroup = BA6AD800270DD821001E5E8F;
+			packageReferences = (
+				BA6AD843270DEF1A001E5E8F /* XCRemoteSwiftPackageReference "Kanna" */,
+			);
 			productRefGroup = BA6AD80A270DD821001E5E8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				BA6AD808270DD821001E5E8F /* TitechAppCourseNews */,
+				BA6AD822270DE2CF001E5E8F /* TitechAppCourseNewsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +256,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA6AD821270DE2CF001E5E8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +270,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6AD848270DFF4D001E5E8F /* Regexp.swift in Sources */,
+				BA6AD83B270DE6DD001E5E8F /* NewsViewAction.swift in Sources */,
 				BA6AD80F270DD821001E5E8F /* ContentView.swift in Sources */,
+				BA6AD841270DE75D001E5E8F /* NewsUIState.swift in Sources */,
+				BA6AD81C270DD83B001E5E8F /* NewsRow.swift in Sources */,
+				BA6AD81E270DDABC001E5E8F /* NewsList.swift in Sources */,
+				BA6AD838270DE63A001E5E8F /* OCWRSSFetchService.swift in Sources */,
 				BA6AD80D270DD821001E5E8F /* TitechAppCourseNewsApp.swift in Sources */,
+				BA6AD82F270DE355001E5E8F /* PlusOneService.swift in Sources */,
+				BA6AD83E270DE6ED001E5E8F /* NewsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6AD81F270DE2CF001E5E8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6AD830270DE355001E5E8F /* PlusOneService.swift in Sources */,
+				BA6AD83F270DE6ED001E5E8F /* NewsViewModel.swift in Sources */,
+				BA6AD849270DFF4D001E5E8F /* Regexp.swift in Sources */,
+				BA6AD842270DE75D001E5E8F /* NewsUIState.swift in Sources */,
+				BA6AD836270DE3E4001E5E8F /* PlusOneServiceTests.swift in Sources */,
+				BA6AD83C270DE6DD001E5E8F /* NewsViewAction.swift in Sources */,
+				BA6AD826270DE2D0001E5E8F /* TitechAppCourseNewsTests.swift in Sources */,
+				BA6AD839270DE63A001E5E8F /* OCWRSSFetchService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6AD828270DE2D0001E5E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6AD808270DD821001E5E8F /* TitechAppCourseNews */;
+			targetProxy = BA6AD827270DE2D0001E5E8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BA6AD815270DD823001E5E8F /* Debug */ = {
@@ -319,6 +483,50 @@
 			};
 			name = Release;
 		};
+		BA6AD82A270DE2D0001E5E8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shop.bo2.TitechAppCourseNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TitechAppCourseNews.app/TitechAppCourseNews";
+			};
+			name = Debug;
+		};
+		BA6AD82B270DE2D0001E5E8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shop.bo2.TitechAppCourseNewsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TitechAppCourseNews.app/TitechAppCourseNews";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,7 +548,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		BA6AD829270DE2D0001E5E8F /* Build configuration list for PBXNativeTarget "TitechAppCourseNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6AD82A270DE2D0001E5E8F /* Debug */,
+				BA6AD82B270DE2D0001E5E8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA6AD843270DEF1A001E5E8F /* XCRemoteSwiftPackageReference "Kanna" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tid-kijyun/Kanna";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA6AD844270DEF1A001E5E8F /* Kanna */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA6AD843270DEF1A001E5E8F /* XCRemoteSwiftPackageReference "Kanna" */;
+			productName = Kanna;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BA6AD801270DD821001E5E8F /* Project object */;
 }
